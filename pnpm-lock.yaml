@@ -53,7 +53,7 @@ importers:
         version: 19.3.0(@types/react@19.3.0)
       '@vitejs/plugin-react':
         specifier: ^6.1.2
-        version: 6.1.2(vite@8.3.3(jiti@2.7.0)(yaml@2.9.1))
+        version: 6.1.2(vite@8.3.4(jiti@2.7.0)(yaml@2.9.1))
       eslint:
         specifier: ^10.12.0
         version: 10.12.0(jiti@2.7.0)
@@ -95,10 +95,10 @@ importers:
         version: 4.3.3
       vite:
         specifier: ^8.3.2
-        version: 8.3.3(jiti@2.7.0)(yaml@2.9.1)
+        version: 8.3.4(jiti@2.7.0)(yaml@2.9.1)
       vite-imagetools:
         specifier: ^12.0.1
-        version: 12.0.1(vite@8.3.3(jiti@2.7.0)(yaml@2.9.1))
+        version: 12.0.1(vite@8.3.4(jiti@2.7.0)(yaml@2.9.1))
       vite-plugin-favicons-inject:
         specifier: ^2.2.0
         version: 2.2.0
@@ -1972,8 +1972,8 @@ packages:
   vite-plugin-favicons-inject@2.2.0:
     resolution: {integrity: sha512-MaqZE3IjwFffIED38yKcI5BKGkV039N6ilhPeOfW4TILzSKMBNd8Q0ehu0mwbl1emWH2tGcuwV3ZIzDKfb0vIQ==}
 
-  vite@8.3.3:
-    resolution: {integrity: sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg==}
+  vite@8.3.4:
+    resolution: {integrity: sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2530,10 +2530,10 @@ snapshots:
     dependencies:
       csstype: 3.2.3
 
-  '@vitejs/plugin-react@6.1.2(vite@8.3.3(jiti@2.7.0)(yaml@2.9.1))':
+  '@vitejs/plugin-react@6.1.2(vite@8.3.4(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.3(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.4(jiti@2.7.0)(yaml@2.9.1)
 
   acorn-jsx@5.3.2(acorn@8.19.0):
     dependencies:
@@ -4026,12 +4026,12 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-imagetools@12.0.1(vite@8.3.3(jiti@2.7.0)(yaml@2.9.1)):
+  vite-imagetools@12.0.1(vite@8.3.4(jiti@2.7.0)(yaml@2.9.1)):
     dependencies:
       '@rollup/pluginutils': 5.4.0
       imagetools-core: 12.0.0
       sharp: 0.35.5
-      vite: 8.3.3(jiti@2.7.0)(yaml@2.9.1)
+      vite: 8.3.4(jiti@2.7.0)(yaml@2.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
@@ -4042,7 +4042,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  vite@8.3.3(jiti@2.7.0)(yaml@2.9.1):
+  vite@8.3.4(jiti@2.7.0)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
