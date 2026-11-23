@@ -82,7 +82,9 @@ export default [
     },
   },
   {
-    files: ['vite.config.js'],
+    // Dev-tooling configs import exports-only packages (e.g. unicorn v80+)
+    // that eslint-plugin-import's node resolver cannot resolve.
+    files: ['vite.config.js', 'eslint.config.js'],
     rules: {
       'import/no-unresolved': 'off',
     },
